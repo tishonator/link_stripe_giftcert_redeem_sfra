@@ -39,4 +39,4 @@ The purpose of this cartridge (link_stripe_giftcert_redeem_sfra) is to demonstra
 ![Gift Cert Balance](https://raw.githubusercontent.com/tishonator/link_stripe_giftcert_redeem_sfra/main/stripe-gift-cert-order.png)
 
 
-Please Note: link_stripe_giftcert_redeem_sfra is not supposed to be used on Production. It should be used as a Proof of Concept as a reference for link_stripe support of SFCC Gift Certificates Redemptions (Full or Partial).
+Please Note: link_stripe_giftcert_redeem_sfra is NOT supposed to be used on Production. It should be used as a Proof of Concept for link_stripe support of SFCC Gift Certificates Redemptions (Full or Partial).
