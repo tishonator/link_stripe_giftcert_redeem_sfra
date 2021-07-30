@@ -19,4 +19,11 @@ The purpose of this cartridge (link_stripe_giftcert_redeem_sfra) is to demonstra
 # How to Test Gift Certificate Redemption
 
 1. BM > Merchant Tools > Online Marketing > Gift Certificates > Click 'New' button
-2. 
+2. Fill the form (with valid email, small amount i.e. $10 to test partial redeem, or big amount i.e. $1000 to test full redeem, Status = 'Issued', and Enabled = 'Yes'):<br>
+![alt text](https://raw.githubusercontent.com/tishonator/link_stripe_giftcert_redeem_sfra/main/bm-gift-cert.png)
+3. Click on 'Email Gift Certificate' button to receive gift certficate code
+4. Open Storefront
+5. Add Product(s) to the Basket
+6. Proceed to the Checkout
+7. Fill Shipping form and proceed to Payment step
+8. 
