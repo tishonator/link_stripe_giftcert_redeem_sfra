@@ -5,3 +5,18 @@ Salesforce Commerce Cloud (SFCC) platform has built in Gift Certificate function
 
 The purpose of this cartridge (link_stripe_giftcert_redeem_sfra) is to demonstrate using of Gift Certificates (Full or Partial redemption) of SFCC Gift Certificates with stripe integration using their official cartridge: https://github.com/SalesforceCommerceCloud/link_stripe (You need to be assigned to SalesForce CommerceCloud Organization: https://github.com/SalesforceCommerceCloud to access that repo).
 
+# Prerequisites
+
+- SFRA ver. 6
+- SFCC Stripe integration using link_stripe ver. 21.3.0 or newer
+
+# Installation
+
+- Business Manager (BM) > Merchant Tools >  Ordering >  Payment Methods > Enable Payment Method with ID = GIFT_CERTIFICATE and Payment Processor = BASIC_GIFT_CERTIFICATE
+
+- BM > Administration >  Sites >  Manage Sites > You site (i.e. RefArch) > 'Settings' Tab > Cartridges > Add 'link_stripe_giftcert_redeem_sfra' at the beginning of the cartridges path, i.e. cartridges path = link_stripe_giftcert_redeem_sfra:app_stripe_sfra:int_stripe_sfra:int_stripe_core:app_storefront_base
+
+# How to Test Gift Certificate Redemption
+
+1. BM > Merchant Tools > Online Marketing > Gift Certificates > Click 'New' button
+2. 
