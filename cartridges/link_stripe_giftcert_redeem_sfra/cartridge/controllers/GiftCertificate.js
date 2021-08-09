@@ -106,9 +106,8 @@ server.get('Redeem', server.middleware.https, function(req, res, next) {
     	
     	Transaction.wrap(function () {
             
-            // Removes any duplicates.
-            // Iterates over the list of payment instruments to check.
-            var gcPaymentInstrs = currentBasket.getGiftCertificatePaymentInstruments(giftCert.getGiftCertificateCode()).iterator();
+            // Removes any gift certificates
+            var gcPaymentInstrs = currentBasket.getGiftCertificatePaymentInstruments().iterator();
             var existingPI = null;
 
             // Removes found gift certificates, to prevent duplicates.
